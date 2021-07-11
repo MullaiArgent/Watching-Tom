@@ -13,6 +13,16 @@ public class WorkingClass implements MouseListener {
     JLabel l7 = new JLabel();
     JLabel l8 = new JLabel();
     JLabel l9 = new JLabel();
+
+    ImageIcon i1  = new ImageIcon("pics\\1.jpg");
+    ImageIcon i2  = new ImageIcon("pics\\2.jpg");
+    ImageIcon i3  = new ImageIcon("pics\\3.jpg");
+    ImageIcon i4  = new ImageIcon("pics\\4.jpg");
+    ImageIcon i5  = new ImageIcon("pics\\5.jpg");
+    ImageIcon i6  = new ImageIcon("pics\\6.jpg");
+    ImageIcon i7  = new ImageIcon("pics\\7.jpg");
+    ImageIcon i8  = new ImageIcon("pics\\8.jpg");
+    ImageIcon i9  = new ImageIcon("pics\\9.jpg");
     JFrame frame = new JFrame();
     WorkingClass(){
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -79,7 +89,7 @@ public class WorkingClass implements MouseListener {
 
     @Override
     public void mouseEntered(MouseEvent e) {
-
+        System.out.print("YEah");
     }
 
     @Override
