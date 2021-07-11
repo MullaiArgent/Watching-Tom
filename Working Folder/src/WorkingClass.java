@@ -33,7 +33,7 @@ public class WorkingClass{
         l3.setBounds(400,0,200,200);
         l4.setBounds(0,200,200,200);
         l5.setBounds(200,200,200,200);
-        l2.setText("Hover the Cursor");
+        l2.setText("Hover Your Cursor");
         l6.setBounds(400,200,200,200);
         l7.setBounds(0,400,200,200);
         l8.setBounds(200,400,200,200);
@@ -53,6 +53,7 @@ public class WorkingClass{
         frame.add(l8);
         frame.add(l9);
         frame.add(alll);
+
 
         one one = new one();
         one.start();
@@ -292,4 +293,4 @@ class nine extends Thread implements MouseListener{
 
     @Override
     public void mouseExited(MouseEvent e) {    }
-}}
+    }}
